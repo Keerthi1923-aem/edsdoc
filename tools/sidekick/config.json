@@ -1,7 +1,8 @@
 {
     "project":"Demo Edge Delivery Services",
     "plugins": [
-    {"id": "asset-library",
+    {
+        "id": "asset-library",
         "title": "My Assets",
         "environments": [
         "edit"
@@ -10,9 +11,7 @@
         "isPalette": true,
         "includePaths": [ "**.docx**" ],
         "passConfig": true,
-        "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
-    },
-    {
+        "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)",
         "copyMode": [{
             "mimeType": "image/*",
             "value": "reference"
