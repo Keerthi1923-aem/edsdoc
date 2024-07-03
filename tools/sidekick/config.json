@@ -1,0 +1,13 @@
+{
+    "project":"Demo Edge Delivery Services",
+    "plugins": [
+    {
+        "id":"aem-asset",
+        "title":"AEM Asset",
+        "environments":["edit","dev","preview"],
+        "url":"http://localhost:5502/assets.html/content/dam/aemgeeks",
+        "passConfig":true,
+        "passReferrer":true
+    }
+]
+}
