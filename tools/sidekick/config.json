@@ -20,12 +20,10 @@
     {
         "id": "contactus",
         "title": "Contact US",
-        "environments": [ "edit","dev", "preview", "live", "prod" ],
-        "url": "/tools/contactus/contactus.html?user=aem-geeks",
-        "isPalette": true,
-        "passConfig": false,
-        "includePaths": [ "**/:x**" ],
-        "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:500px; height: calc(100vh - 60px)"
+        "environments": [ "edit","preview"],
+        "url": "/tools/contactus/contactus.html",
+        "passConfig": true,
+        "passReferrer":true
     },
     {
         "id": "generate-variations",
